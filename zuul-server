@@ -1,1 +1,4 @@
 server.port=8080
+
+zuul.ignoredServices=*
+zuul.routes.users=/invoice-server/**
